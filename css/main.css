@@ -187,6 +187,11 @@ textarea {
     clear: both;
 }
 
+
+.mb10 { margin-bottom: 10px; }
+.mb20 { margin-bottom: 20px; }
+.mb40 { margin-bottom: 40px; }
+
 h1, h2 {
     font-family: 'Trocchi', serif;
 }
@@ -197,10 +202,25 @@ h3, h4, h5, h6 {
 p {
     font-family: 'News Cycle', sans-serif;
 }
+img {
+    width: 100%;
+}
+
+
+.the {
+
+}
 
 .section {
     padding: 30px;
     background: #303E47;
+}
+.section--lg-padding {
+    padding: 60px 30px;
+}
+
+.profile-img {
+    width: 100%;
 }
 
 #header {
@@ -220,6 +240,113 @@ p {
     margin-bottom: 100px;
 }
 
+#intro {
+    background: #afc9b7;
+}
+#intro .intro_content {
+    margin: 30px 0px 0px 5px;
+}
+#intro .intro_bride {
+    text-align: right;
+}
+#intro .intro_bride .intro_content {
+    margin: 30px 5px 0px 0px;
+}
+
+#date {
+    background: #557d80;
+    background-image: url('../img/04_general_info_vineyard.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #afc9b7;
+}
+
+.highlight {
+    color: #fac125;
+}
+#date h6 {
+    font-size: 18px;
+    margin-bottom: 250px;
+}
+
+
+#details {
+    background-color: #5b806f;
+}
+#details img {
+    width: 300px;
+    margin-bottom: 40px;
+}
+
+#party-title {
+    background-image: url('../img/06_bridal_party_header.jpg');
+    background-size: 100%;
+    background-position: center;
+    color: #afc9b7;
+}
+
+#bridal-party .man-of-honor, #groom-party .best-maid {
+    margin: 40px 0px;
+}
+#bridal-party .bridesmaids, #groom-party .groomsmen {
+    margin-top: 40px;
+}
+#bridal-party .man-of-honor img, #groom-party .best-maid img {
+    display: inline-block;
+    width: 300px;
+}
+#bridal-party .bridesmaids img, #groom-party .groomsmen img {
+    width: 200px;
+    display: inline-block;
+}
+
+#bridal-party {
+    background-color: #afc9b7;
+}
+
+#groom-party {
+    color: #afccb6;
+}
+#groom-party h3 {
+    color: #fac123;
+}
+
+#honeyfund {
+    background-color: #afc9b7;
+}
+#honeyfund img {
+    width: 350px;
+    margin-bottom: 30px;
+}
+#honeyfund h2 {
+    color: #2e3d45;
+}
+
+#info {
+    background-color: #5b806f;
+    background-image: url('../img/10_did_you_know_monogram.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #92b09e;
+    padding: 80px 30px;
+}
+
+#to-do {
+    background-color: #6e9180;
+    color: #2e3c45;
+}
+#to-do h2, #to-do h4 {
+    color: #a3bfac;
+}
+
+#fin {
+    color: #abc7b3;
+}
+#fin img{
+    width: 500px;
+}
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
