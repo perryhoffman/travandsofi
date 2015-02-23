@@ -192,23 +192,55 @@ textarea {
 .mb20 { margin-bottom: 20px; }
 .mb40 { margin-bottom: 40px; }
 
+.mt40 { margin-top: 40px; }
+
+body { color: #32424a; }
 h1, h2 {
     font-family: 'Trocchi', serif;
+    margin: 0px;
 }
 h3, h4, h5, h6 {
     font-family: 'PT Serif', serif;
     font-style: italic;
+    margin: 0px;
+}
+h1 {
+    font-size: 59px;
+}
+h2 {
+    font-size: 42px;
+}
+h3 {
+    font-size: 36px;
+}
+h4 {
+    font-size: 30px;
 }
 p {
-    font-family: 'News Cycle', sans-serif;
+    font-family: 'PT Serif', serif;
+    /*font-family: 'Arvo', serif;*/
 }
 img {
     width: 100%;
 }
 
 
+.highlight {
+    color: #fac125;
+}
+.x-light-type {
+    color: #9fbda9;
+}
+.light-type {
+    color: #5b806f;
+}
+.dark-type {
+    color: #30424a;
+}
 .the {
-
+    font-family: 'News Cycle', sans-serif;
+    font-weight: bold;
+    font-style: normal;
 }
 .bg-cover {
     -webkit-background-size: cover;
@@ -239,7 +271,6 @@ img {
 }
 #header h1 {
     color: #abc7b3;
-    font-size: 59px;
     letter-spacing: 10px;
     margin-bottom: 100px;
 }
@@ -263,11 +294,11 @@ img {
     color: #afc9b7;
 }
 
-.highlight {
-    color: #fac125;
+#date h3 {
+    font-size: 62px;
 }
 #date h6 {
-    font-size: 18px;
+    font-size: 22px;
     margin-bottom: 250px;
 }
 
@@ -287,6 +318,12 @@ img {
     /*background-position: center;*/
     color: #afc9b7;
 }
+/*#party-title h3 {*/
+    /*font-size: 42px;*/
+/*}*/
+/*#party-title h1 {*/
+    /*font-size: 66px;*/
+/*}*/
 
 #bridal-party .man-of-honor, #groom-party .best-maid {
     margin: 40px 0px;
@@ -306,11 +343,19 @@ img {
 #bridal-party {
     background-color: #afc9b7;
 }
+#bridal-party .man-of-honor--text{
+    margin-top: 60px;
+    padding-left: 40px;
+}
+#groom-party .best-maid--text {
+    margin-top: 60px;
+    padding-right: 40px;
+}
 
 #groom-party {
     color: #afccb6;
 }
-#groom-party h3 {
+#groom-party h4 {
     color: #fac123;
 }
 
@@ -323,6 +368,9 @@ img {
 }
 #honeyfund h2 {
     color: #2e3d45;
+}
+#honeyfund a {
+    font-style: italic;
 }
 
 #info {
