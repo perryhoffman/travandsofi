@@ -210,10 +210,16 @@ img {
 .the {
 
 }
+.bg-cover {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 .section {
     padding: 30px;
-    background: #303E47;
+    background-color: #303E47;
 }
 .section--lg-padding {
     padding: 60px 30px;
@@ -224,10 +230,8 @@ img {
 }
 
 #header {
-    background-image: url('../img/01_marquee_trav_hugging_sofi.jpg');
+    background: url(../img/01_marquee_trav_hugging_sofi.jpg) no-repeat bottom center #303E47;
     background-size: 1200px;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 #header .logo {
     width: 150px;
@@ -254,11 +258,8 @@ img {
 }
 
 #date {
-    background: #557d80;
-    background-image: url('../img/04_general_info_vineyard.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
+    background: url(../img/04_general_info_vineyard.jpg)  no-repeat bottom center #557d80;
+    background-size: 1600px;
     color: #afc9b7;
 }
 
@@ -280,9 +281,10 @@ img {
 }
 
 #party-title {
-    background-image: url('../img/06_bridal_party_header.jpg');
-    background-size: 100%;
-    background-position: center;
+    background: url(../img/06_bridal_party_header.jpg) center center fixed;
+    /*background-image: url('../img/06_bridal_party_header.jpg');*/
+    /*background-size: 100%;*/
+    /*background-position: center;*/
     color: #afc9b7;
 }
 
@@ -325,10 +327,7 @@ img {
 
 #info {
     background-color: #5b806f;
-    background-image: url('../img/10_did_you_know_monogram.png');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
+    background: url(../img/10_did_you_know_monogram.png) no-repeat center center fixed;
     color: #92b09e;
     padding: 80px 30px;
 }
