@@ -216,7 +216,7 @@ h3 {
 h4 {
     font-size: 30px;
 }
-p {
+p, b, a, i {
     font-family: 'PT Serif', serif;
     /*font-family: 'Arvo', serif;*/
 }
@@ -254,7 +254,7 @@ img {
     background-color: #303E47;
 }
 .section--lg-padding {
-    padding: 60px 30px;
+    padding: 65px 30px;
 }
 
 .profile-img {
@@ -379,6 +379,9 @@ img {
     color: #92b09e;
     padding: 80px 30px;
 }
+#info p {
+    line-height: 24px;
+}
 
 #to-do {
     background-color: #6e9180;
@@ -386,6 +389,28 @@ img {
 }
 #to-do h2, #to-do h4 {
     color: #a3bfac;
+}
+#to-do h4 {
+    font-family: 'News Cycle', sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+#to-do ul {
+    list-style: none;
+    padding-left: 0px;
+}
+#to-do a {
+    font-style: italic;
+}
+#to-do a:hover {
+    text-decoration: none;
+    color: #D2A62F;
+}
+#to-do p {
+    margin-bottom: 5px;
 }
 
 #fin {
