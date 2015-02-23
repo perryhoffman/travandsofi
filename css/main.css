@@ -417,7 +417,12 @@ img {
     color: #abc7b3;
 }
 #fin img{
-    width: 500px;
+    width: 325px;
+}
+#fin span{
+    font-size: 30px;
+    font-family: 'News Cycle', sans-serif;
+    font-style: normal;
 }
 
 /* ==========================================================================
