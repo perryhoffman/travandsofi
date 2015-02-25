@@ -226,13 +226,13 @@ img {
 
 
 .highlight {
-    color: #fac125;
+    color: #fec524;
 }
 .x-light-type {
     color: #9fbda9;
 }
 .light-type {
-    color: #5b806f;
+    color: #5a7f70;
 }
 .dark-type {
     color: #30424a;
@@ -251,7 +251,7 @@ img {
 
 .section {
     padding: 30px;
-    background-color: #303E47;
+    background-color: #303e48;
 }
 .section--lg-padding {
     padding: 65px 30px;
@@ -262,7 +262,7 @@ img {
 }
 
 #header {
-    background: url(../img/01_marquee_trav_hugging_sofi.jpg) no-repeat bottom center #303E47;
+    background: url(../img/01_marquee_trav_hugging_sofi.jpg) no-repeat bottom center #303e48;
     background-size: 1200px;
 }
 #header .logo {
@@ -276,7 +276,7 @@ img {
 }
 
 #intro {
-    background: #afc9b7;
+    background: #afcab7;
 }
 #intro .intro_content {
     margin: 30px 0px 0px 5px;
@@ -291,7 +291,7 @@ img {
 #date {
     background: url(../img/04_general_info_vineyard.jpg)  no-repeat bottom center #557d80;
     background-size: 1600px;
-    color: #afc9b7;
+    color: #afcab7;
 }
 
 #date h3 {
@@ -304,7 +304,7 @@ img {
 
 
 #details {
-    background-color: #5b806f;
+    background-color: #5a7f70;
 }
 #details img {
     width: 300px;
@@ -316,7 +316,7 @@ img {
     /*background-image: url('../img/06_bridal_party_header.jpg');*/
     /*background-size: 100%;*/
     /*background-position: center;*/
-    color: #afc9b7;
+    color: #afcab7;
 }
 /*#party-title h3 {*/
     /*font-size: 42px;*/
@@ -342,7 +342,7 @@ img {
 }
 
 #bridal-party {
-    background-color: #afc9b7;
+    background-color: #afcab7;
 }
 #bridal-party .man-of-honor--text{
     margin-top: 60px;
@@ -361,7 +361,7 @@ img {
 }
 
 #honeyfund {
-    background-color: #afc9b7;
+    background-color: #afcab7;
 }
 #honeyfund img {
     width: 350px;
@@ -375,7 +375,7 @@ img {
 }
 
 #info {
-    background-color: #5b806f;
+    background-color: #5a7f70;
     background: url(../img/10_did_you_know_monogram.png) no-repeat center center fixed;
     color: #92b09e;
     padding: 80px 30px;
