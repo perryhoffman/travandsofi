@@ -328,14 +328,15 @@ img {
 #bridal-party .man-of-honor, #groom-party .best-maid {
     margin: 40px 0px;
 }
-#bridal-party .bridesmaids, #groom-party .groomsmen {
-    margin-top: 40px;
-}
+/*#bridal-party .bridesmaids, #groom-party .groomsmen {*/
+    /*margin-top: 40px;*/
+/*}*/
 #bridal-party .man-of-honor img, #groom-party .best-maid img {
     display: inline-block;
     width: 300px;
 }
 #bridal-party .bridesmaids img, #groom-party .groomsmen img {
+    margin-top: 40px;
     width: 200px;
     display: inline-block;
 }
