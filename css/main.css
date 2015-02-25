@@ -290,7 +290,7 @@ img {
 
 #date {
     background: url(../img/04_general_info_vineyard.jpg)  no-repeat bottom center #557d80;
-    background-size: 1600px;
+    background-size: 100%;
     color: #afcab7;
 }
 
@@ -359,6 +359,10 @@ img {
 #groom-party h4 {
     color: #fac123;
 }
+#groom-party a:hover {
+    text-decoration: none;
+    color: #D2A62F;
+}
 
 #honeyfund {
     background-color: #afcab7;
@@ -382,6 +386,7 @@ img {
 }
 #info p {
     line-height: 24px;
+    margin-bottom: 5px;
 }
 
 #to-do {
