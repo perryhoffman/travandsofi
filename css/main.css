@@ -412,6 +412,9 @@ img {
 #to-do p {
     margin-bottom: 5px;
 }
+#to-do li {
+    margin-bottom: 15px;
+}
 
 #fin {
     color: #abc7b3;
