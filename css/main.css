@@ -187,6 +187,13 @@ textarea {
     clear: both;
 }
 
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
+
 
 .mb10 { margin-bottom: 10px; }
 .mb20 { margin-bottom: 20px; }
@@ -286,6 +293,10 @@ img {
 }
 #intro .intro_bride .intro_content {
     margin: 30px 5px 0px 0px;
+}
+
+#journey-alt h3 {
+    font-size: 30px;
 }
 
 #date {
@@ -440,9 +451,138 @@ img {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+/* Small devices (tablets, 768px and up) */
+
+@media (min-width: 500px) and (max-width: 767px) {
+    #bridal-party .man-of-honor img, #groom-party .best-maid img {
+        width: 60%;
+    }
 }
+
+@media (max-width: 768px) {
+    #header h1 {
+        font-size: 50px;
+    }
+    #details h2 {
+        font-size: 46px;
+    }
+    h2 {
+        font-size: 64px;
+    }
+    h3 {
+        font-size: 56px;
+    }
+    h4 {
+        font-size: 48px;
+    }
+    h6 {
+        font-size: 34px !important;
+    }
+    p {
+        font-size: 16px;
+    }
+
+
+    .intro_img {
+        text-align: center;
+    }
+    .intro_img img {
+        width: 60%;
+        display: inline-block;
+    }
+    .intro_content {
+        text-align: left;
+        margin-bottom: 40px;
+    }
+    #journey {
+        display: none;
+    }
+    #journey-alt {
+        display: block;
+    }
+
+    #bridal-party h4, #groom-party h4 {
+        text-align: center;
+    }
+    #bridal-party .man-of-honor--text, #groom-party .best-maid--text {
+        margin-top: 20px;
+    }
+    #bridal-party p, #groom-party p {
+        text-align: left;
+    }
+
+    #bridal-party .bridesmaids img, #groom-party .groomsmen img {
+        margin-bottom: 20px;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 769px) {
+    #bridal-party h4, #groom-party h4 {
+        text-align: center;
+    }
+    #bridal-party p, #groom-party p {
+        text-align: left;
+    }
+    #groom-party .best-maid--text p {
+        text-align: right;
+    }
+    #bridal-party .man-of-honor--text p{
+        text-align: left;
+    }
+    #bridal-party .man-of-honor img, #groom-party .best-maid img {
+        width: 100%;
+        margin-top: 60px;
+    }
+    #journey {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .intro_title {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #details .row div {
+        margin-top: 60px;
+    }
+}
+@media (min-width: 992px) {
+    #bridal-party .man-of-honor--text h4{
+        text-align: left;
+    }
+    #groom-party .best-maid--text h4 {
+        text-align: right;
+    }
+    #bridal-party p, #groom-party p {
+        text-align: center;
+    }
+    #journey {
+        display: block;
+    }
+    #journey-alt {
+        display: none;
+    }
+
+    #bridal-party .bridesmaids p, #groom-party .groomsmen p {
+        text-align: left;
+    }
+    #bridal-party .bridesmaids img, #groom-party .groomsmen img {
+        margin-bottom: 40px;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+/*@media (max-width: 768) { ... }*/
+/*@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }*/
+/*@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }*/
+/*@media (min-width: @screen-lg-min) { ... }*/
 
 @media print,
        (-o-min-device-pixel-ratio: 5/4),
