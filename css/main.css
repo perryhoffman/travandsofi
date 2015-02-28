@@ -268,6 +268,10 @@ img {
     width: 100%;
 }
 
+.xsm-img, .sm-img, .md-img {
+    display: none;
+}
+
 #header {
     background: url(../img/01_marquee_trav_hugging_sofi.jpg) no-repeat bottom center #303e48;
     background-size: 1200px;
@@ -390,7 +394,7 @@ img {
 }
 
 #info {
-    background-color: #5a7f70;
+    background: #5a7f70;
     background: url(../img/10_did_you_know_monogram.png) no-repeat center center fixed;
     color: #92b09e;
     padding: 80px 30px;
@@ -452,6 +456,14 @@ img {
    ========================================================================== */
 
 /* Small devices (tablets, 768px and up) */
+@media (max-width: 550px) {
+    .sm-img, .md-img, .lg-img {
+        display: none !important;
+    }
+    .xsm-img {
+        display: block !important;
+    }
+}
 
 @media (min-width: 500px) and (max-width: 767px) {
     #bridal-party .man-of-honor img, #groom-party .best-maid img {
@@ -514,6 +526,13 @@ img {
     #bridal-party .bridesmaids img, #groom-party .groomsmen img {
         margin-bottom: 20px;
     }
+
+    .xsm-img, .md-img, .lg-img {
+        display: none !important;
+    }
+    .sm-img {
+        display: block !important;
+    }
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -575,8 +594,16 @@ img {
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-
+@media (max-width: 1200px) {
+    #header h1 {
+        margin-bottom: 60px;
+    }
+    .xsm-img, .sm-img, .lg-img {
+        display: none;
+    }
+    .md-img {
+        display: block;
+    }
 }
 
 /*@media (max-width: 768) { ... }*/
